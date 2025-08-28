@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <section
             className="relative text-center py-12 px-6 bg-no-repeat bg-cover bg-center text-white"
-            style={{ backgroundImage: "url('/bg-footer.png')" }}
+            style={{ backgroundImage: "url('/img/bg-footer.webp')" }}
         >
             <div className="absolute inset-0 bg-black/70"></div>
 
@@ -24,7 +24,7 @@ export default function Footer() {
 
                 <p className="mt-12 mb-4 font-semibold">Hormat Kami,</p>
                 <img
-                    src="/logo-spi.png"
+                    src="/img/logo-spi.webp"
                     alt="SPI Logo"
                     className="w-28 mx-auto mb-4"
                 />

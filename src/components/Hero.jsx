@@ -22,20 +22,20 @@ export default function Hero() {
     return (
         <section
             className="relative flex flex-col justify-center items-center min-h-screen text-center bg-cover bg-center py-10"
-            style={{ backgroundImage: "url('/bg-hero.png')" }}
+            style={{ backgroundImage: "url('/img/bg-hero.webp')" }}
         >
             <div className="absolute inset-0 bg-black/50"></div>
 
             <div className="relative flex flex-col justify-around gap-10 items-center w-full h-full px-4">
                 <img
-                    src="/logo-spi.png"
+                    src="/img/logo-spi.webp"
                     alt="SPI Logo"
                     className="w-28 md:w-40 h-auto"
                 />
 
                 <div className="bg-center bg-contain bg-no-repeat w-11/12 max-w-md sm:max-w-lg md:max-w-2xl flex flex-col justify-center items-center">
                     <div className="text-white">
-                        <img src="/batik-nama1.png" alt="" />
+                        <img src="/img/batik-nama1.webp" alt="" />
                         <p className="text-3xl sm:text-lg md:text-4xl mt-4">
                             Dear
                         </p>
@@ -47,12 +47,12 @@ export default function Hero() {
                         <p className="font-medium mt-4 text-2xl sm:text-lg md:text-4xl mb-4">
                             you're invited
                         </p>
-                        <img src="/batik-nama2.png" alt="" />
+                        <img src="/img/batik-nama2.webp" alt="" />
                     </div>
                 </div>
 
                 <div>
-                    <img src="/spi.png" alt="" />
+                    <img src="/img/spi.webp" alt="" />
                 </div>
             </div>
         </section>

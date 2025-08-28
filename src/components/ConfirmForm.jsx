@@ -1,27 +1,22 @@
 export default function ConfirmForm() {
     return (
         <section className="text-center py-12 w-11/12 mx-auto">
-            <p className="mb-4 text-gray-300">
+            <p className="mb-6 text-white text-lg font-semibold">
                 Isi formulir berikut untuk konfirmasi kedatangan Anda!
             </p>
-            <form className="max-w-md mx-auto space-y-4">
-                <input
-                    type="text"
-                    placeholder="Nama Lengkap"
-                    className="w-full p-3 rounded-md text-black"
-                />
-                <input
-                    type="text"
-                    placeholder="Nomor WhatsApp"
-                    className="w-full p-3 rounded-md text-black"
-                />
-                <button
-                    type="submit"
-                    className="w-full bg-yellow-500 text-black py-3 rounded-md font-semibold hover:bg-yellow-600 transition"
+
+            <div className="w-full max-w-2xl mx-auto bg-white rounded-xl">
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSfp5Ucc2ZPNywYMSl1A8BsTQ81DZilbisHAu8Y6ss66cJvHjw/viewform?embedded=true"
+                    width="100%"
+                    height="600"
+                    frameborder="0"
+                    marginheight="0"
+                    marginwidth="0"
                 >
-                    Konfirmasi Kehadiran
-                </button>
-            </form>
+                    Loading...
+                </iframe>
+            </div>
         </section>
     );
 }

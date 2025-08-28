@@ -1,10 +1,10 @@
 export default function KaligrafiSection() {
     return (
         <section className="relative">
-            <img src="/pita.png" alt="" />
+            <img src="/img/pita.webp" alt="" />
             <div className="w-11/12 mx-auto text-center mt-6 py-10">
                 <img
-                    src="/bismillah.png"
+                    src="/img/bismillah.webp"
                     alt="Kaligrafi"
                     className="mx-auto w-[80%] mb-6"
                 />

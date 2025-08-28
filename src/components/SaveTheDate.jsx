@@ -4,7 +4,7 @@ export default function SaveTheDate() {
             <div className="w-11/12 mx-auto">
                 
                 <img
-                    src="/tanggal.png"
+                    src="/img/tanggal.webp"
                     alt="tanggal"
                     className="w-full"
                 />
