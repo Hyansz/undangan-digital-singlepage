@@ -1,0 +1,60 @@
+import { useEffect, useState } from "react";
+
+export default function Hero() {
+    const [nama, setNama] = useState("Tamu Undangan");
+
+    const capitalizeWords = (str) => {
+        return str
+            .toLowerCase()
+            .split(" ")
+            .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(" ");
+    };
+
+    useEffect(() => {
+        const params = new URLSearchParams(window.location.search);
+        const namaParam = params.get("nama");
+        if (namaParam) {
+            setNama(capitalizeWords(namaParam));
+        }
+    }, []);
+
+    return (
+        <section
+            className="relative flex flex-col justify-center items-center min-h-screen text-center bg-cover bg-center py-10"
+            style={{ backgroundImage: "url('/bg-hero.png')" }}
+        >
+            <div className="absolute inset-0 bg-black/50"></div>
+
+            <div className="relative flex flex-col justify-around gap-10 items-center w-full h-full px-4">
+                <img
+                    src="/logo-spi.png"
+                    alt="SPI Logo"
+                    className="w-28 md:w-40 h-auto"
+                />
+
+                <div className="bg-center bg-contain bg-no-repeat w-11/12 max-w-md sm:max-w-lg md:max-w-2xl flex flex-col justify-center items-center">
+                    <div className="text-white">
+                        <img src="/batik-nama1.png" alt="" />
+                        <p className="text-3xl sm:text-lg md:text-4xl mt-4">
+                            Dear
+                        </p>
+                    </div>
+                    <p className="text-yellow-500 font-semibold py-1 text-4xl sm:text-2xl md:text-7xl">
+                        Bpk. {nama}
+                    </p>
+                    <div className="text-white">
+                        <p className="font-medium mt-4 text-2xl sm:text-lg md:text-4xl mb-4">
+                            you're invited
+                        </p>
+                        <img src="/batik-nama2.png" alt="" />
+                    </div>
+                </div>
+
+                <div>
+                    <img src="/spi.png" alt="" />
+                </div>
+            </div>
+        </section>
+    );
+}
