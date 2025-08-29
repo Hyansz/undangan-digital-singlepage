@@ -31,9 +31,16 @@ export default function Hero() {
                     src="/img/logo-spi.webp"
                     alt="SPI Logo"
                     className="w-28 md:w-40 h-auto"
+                    data-aos="zoom-in"
+                    data-aos-duration="1200"
                 />
 
-                <div className="bg-center bg-contain bg-no-repeat w-11/12 max-w-md sm:max-w-lg md:max-w-3xl flex flex-col justify-center items-center">
+                <div
+                    className="bg-center bg-contain bg-no-repeat w-11/12 max-w-md sm:max-w-lg md:max-w-3xl flex flex-col justify-center items-center"
+                    data-aos="zoom-in"
+                    data-aos-delay="200"
+                    data-aos-duration="1200"
+                >
                     <div className="text-white">
                         <img src="/img/batik-nama1.webp" alt="" />
                         <p className="text-2xl sm:text-lg md:text-4xl mt-2">
@@ -51,7 +58,11 @@ export default function Hero() {
                     </div>
                 </div>
 
-                <div>
+                <div
+                    data-aos="zoom-in"
+                    data-aos-delay="400"
+                    data-aos-duration="1200"
+                >
                     <img src="/img/spi.webp" alt="" />
                 </div>
             </div>

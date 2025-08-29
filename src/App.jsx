@@ -5,8 +5,12 @@ import SaveTheDate from "./components/SaveTheDate";
 import MapsSection from "./components/MapsSection";
 import ConfirmForm from "./components/ConfirmForm";
 import Footer from "./components/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function App() {
+    AOS.init();
+
     return (
         <div className="bg-black text-white font-sans">
             <Hero />
