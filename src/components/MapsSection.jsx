@@ -10,7 +10,6 @@ export default function MapsSection() {
                 allowFullScreen=""
                 loading="lazy"
                 data-aos="zoom-in"
-                data-aos-duration="1200"
             />
             <a
                 href="https://maps.app.goo.gl/JAcmmWJdqy4znBy8A"
@@ -18,7 +17,6 @@ export default function MapsSection() {
                 rel="noopener noreferrer"
                 className="mt-4 flex justify-center items-center bg-yellow-500 text-black px-6 py-2 rounded-full font-semibold hover:bg-yellow-600 transition w-fit text-center mx-auto"
                 data-aos="zoom-in"
-                data-aos-duration="1200"
             >
                 <FaLocationDot />
                 <p>Google Maps</p>

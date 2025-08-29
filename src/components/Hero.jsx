@@ -32,14 +32,12 @@ export default function Hero() {
                     alt="SPI Logo"
                     className="w-28 md:w-40 h-auto"
                     data-aos="zoom-in"
-                    data-aos-duration="1200"
                 />
 
                 <div
                     className="bg-center bg-contain bg-no-repeat w-11/12 max-w-md sm:max-w-lg md:max-w-3xl flex flex-col justify-center items-center"
                     data-aos="zoom-in"
                     data-aos-delay="200"
-                    data-aos-duration="1200"
                 >
                     <div className="text-white">
                         <img src="/img/batik-nama1.webp" alt="" />
@@ -58,11 +56,7 @@ export default function Hero() {
                     </div>
                 </div>
 
-                <div
-                    data-aos="zoom-in"
-                    data-aos-delay="400"
-                    data-aos-duration="1200"
-                >
+                <div data-aos="zoom-in" data-aos-delay="400">
                     <img src="/img/spi.webp" alt="" />
                 </div>
             </div>
