@@ -33,18 +33,18 @@ export default function Hero() {
                     className="w-28 md:w-40 h-auto"
                 />
 
-                <div className="bg-center bg-contain bg-no-repeat w-11/12 max-w-md sm:max-w-lg md:max-w-2xl flex flex-col justify-center items-center">
+                <div className="bg-center bg-contain bg-no-repeat w-11/12 max-w-md sm:max-w-lg md:max-w-3xl flex flex-col justify-center items-center">
                     <div className="text-white">
                         <img src="/img/batik-nama1.webp" alt="" />
-                        <p className="text-3xl sm:text-lg md:text-4xl mt-4">
+                        <p className="text-2xl sm:text-lg md:text-4xl mt-2">
                             Dear
                         </p>
                     </div>
-                    <p className="text-yellow-500 font-semibold py-1 text-4xl sm:text-2xl md:text-7xl">
+                    <p className="text-yellow-500 font-semibold py-1 text-3xl sm:text-2xl md:text-7xl">
                         Bpk. {nama}
                     </p>
                     <div className="text-white">
-                        <p className="font-medium mt-4 text-2xl sm:text-lg md:text-4xl mb-4">
+                        <p className="font-semibold mt-1 text-xl sm:text-lg md:text-4xl mb-2">
                             you're invited
                         </p>
                         <img src="/img/batik-nama2.webp" alt="" />
