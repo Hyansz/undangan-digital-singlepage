@@ -6,7 +6,7 @@ export default function Footer() {
             className="relative text-center py-12 px-6 bg-no-repeat bg-cover bg-center text-white"
             style={{ backgroundImage: "url('/img/bg-footer.webp')" }}
         >
-            <div className="absolute inset-0 bg-black/70"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-black/90 to-black/70"></div>
 
             <div className="relative z-10 max-w-2xl mx-auto">
                 <div className="mb-10 space-y-4">
